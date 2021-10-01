@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator using JS</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <p id="heading" class="center-element">Calculator using JS</p>
+        <div class="result-screen">
+            <p id="showResult"></p>
+        </div>
+        <div class="keypad center-element">
+            <input
+                type="button"
+                class="rst-btn"
+                value="Reset"
+                onclick="reset()"
+            />
+            <input
+                type="button"
+                class="rst-btn"
+                value="Equals"
+                onclick="equals()"
+            />
+        </div>
+        <div class="keypad center-element">
+            <input
+                type="button"
+                class="num-btn"
+                value="7"
+                onclick="keypress(7)"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="8"
+                onclick="keypress(8)"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="9"
+                onclick="keypress(9)"
+            />
+        </div>
+        <div class="keypad center-element">
+            <input
+                type="button"
+                class="num-btn"
+                value="4"
+                onclick="keypress(4)"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="5"
+                onclick="keypress(5)"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="6"
+                onclick="keypress(6)"
+            />
+        </div>
+        <div class="keypad center-element">
+            <input
+                type="button"
+                class="num-btn"
+                value="1"
+                onclick="keypress(1)"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="2"
+                onclick="keypress(2)"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="3"
+                onclick="keypress(3)"
+            />
+        </div>
+        <div class="keypad center-element">
+            <input
+                type="button"
+                class="num-btn"
+                value="+"
+                onclick="keypress('+')"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="-"
+                onclick="keypress('-')"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="*"
+                onclick="keypress('*')"
+            />
+            <input
+                type="button"
+                class="num-btn"
+                value="/"
+                onclick="keypress('/')"
+            />
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

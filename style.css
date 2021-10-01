@@ -1,0 +1,30 @@
+.center-element {
+    display: flex;
+    justify-content: center;
+}
+#heading {
+    font-size: x-large;
+    font-weight: 1000;
+}
+.num-btn {
+    margin: 10px;
+    padding: 20px;
+    font-size: x-large;
+}
+#showResult {
+    border: 3px solid red;
+    background-color: rgb(178, 241, 178);
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    font-size: larger;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+}
+.rst-btn {
+    margin: 10px;
+    padding: 20px;
+    font-size: large;
+}
